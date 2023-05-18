@@ -1,0 +1,68 @@
+$theme-colors: (
+	"dark": #172838,
+	"secondary": #34ad95,
+	"info": #cdeef0,
+);
+
+.nav-item {
+	color: white;
+
+	a {
+		color: white;
+		&:hover {
+			text-decoration: none !important;
+			color: rgba(255, 255, 255, 0.7) !important;
+			cursor: pointer;
+		}
+	}
+}
+
+.loader-page {
+	width: 100%;
+	height: 60vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.loader-inner {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.link-no-decoration {
+	&:hover {
+		color: initial;
+		text-decoration: none !important;
+		cursor: pointer;
+	}
+}
+
+.thumbnail {
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+}
+
+.thumbnail-lg {
+	border-radius: 5%;
+	height: 120px;
+	width: 120px;
+}
+
+.thumbnail-xl {
+	border-radius: 5%;
+	height: 250px;
+	width: 250px;
+}
+
+.btn-fixed{
+	position: fixed;
+	right: 1rem;
+	bottom:1rem;
+}
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
